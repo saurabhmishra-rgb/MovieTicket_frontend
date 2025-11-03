@@ -3,7 +3,7 @@ import { useParams, useLocation, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addBooking } from '../../redux/bookingSlice'
 import { dummyDateTimeData, dummyShowsData } from '../assets/assets'
-import Trailer from '../components/trailer'
+import Trailer from '../components/Trailer'
 
 const MovieDetail = () => {
   const { id } = useParams()
