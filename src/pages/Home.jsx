@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import MovieCard from '../components/Moviecard'
 import { dummyShowsData } from '../assets/assets'
-import Trailer from '../components/trailer'
+import Trailer from '../components/Trailer'
 
 const Home = () => {
   const movies = dummyShowsData || []
