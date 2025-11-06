@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import axios from "axios";
-import { options } from "../src/Utils/constant";
+import { options } from "../src/utils/constant";
 
 const useMovieByID = (movieId) => {
   useEffect(() => {
