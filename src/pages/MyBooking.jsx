@@ -22,7 +22,7 @@ const MyBooking = () => {
   // Merge redux + dummy bookings
   const mergedBookings = [...reduxBookings, ...dummyBookingData]
 
-  // ✅ Remove duplicates based on unique booking ID or movie + datetime combo
+  //  Remove duplicates based on unique booking ID or movie + datetime combo
   const uniqueBookingsMap = new Map()
 
   mergedBookings.forEach((b) => {

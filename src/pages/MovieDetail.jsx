@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { addBooking } from '../../redux/bookingSlice'
 import { dummyDateTimeData, dummyShowsData } from '../assets/assets'
 import Trailer from '../components/Trailer'
-
+import VideoContainer from './VideoContainer'
 const MovieDetail = () => {
   const { id } = useParams()
   const location = useLocation()
@@ -294,7 +294,7 @@ const MovieDetail = () => {
           </div>
         </div>
       </div>
-
+         
     </div>
   )
 }

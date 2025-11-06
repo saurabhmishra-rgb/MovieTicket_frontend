@@ -4,7 +4,8 @@ import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, 
 import storage from 'redux-persist/lib/storage';
 import bookingReducer from './bookingSlice';
 import userReducer from './userSlice';
-
+import movieReducer from './movieSlice';
+import searchReducer from './searchSlice'
 const persistConfig = {
   key: 'root',
   storage,
@@ -13,6 +14,8 @@ const persistConfig = {
 const rootReducer = combineReducers({
   bookings: bookingReducer,
   user: userReducer,
+  movie: movieReducer,
+  searchMovie: searchReducer
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
