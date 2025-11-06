@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Upcoming_movies, options } from '../../utils/constant';
+import { Upcoming_movies, options } from '../src/utils/constant';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { getUpcomingMovies } from '../redux/movieSlice' ;

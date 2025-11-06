@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
-import { Top_Rated_movies, options } from '../../utils/constant'
+import { Top_Rated_movies, options } from '../src/utils/constant'
 import { useDispatch } from 'react-redux'
 import { getTopRatedMovies } from '../redux/movieSlice' 
 const useTopRatedMovies = () => {
